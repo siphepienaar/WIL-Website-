@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asset Register - Campus ICT Department</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Inline styling for asset tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 0.95rem;
+    }
+
+    table th, table td {
+      border: 1px solid #cfe2ff;
+      padding: 10px;
+      text-align: left;
+    }
+
+    table th {
+      background: #007bff;
+      color: white;
+    }
+
+    table tr:nth-child(even) {
+      background: #f0f7ff;
+    }
+
+    h2 {
+      color: #004085;
+      margin-top: 40px;
+    }
+
+    .notes {
+      background: #e7f3ff;
+      border-left: 4px solid #007bff;
+      padding: 15px;
+      margin-top: 30px;
+      border-radius: 8px;
+    }
+
+    .back {
+      color: white;
+      background: #007bff;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+      display: inline-block;
+    }
+
+    .back:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="small">
+    <div class="header-inner">
+      <h1>Campus ICT Asset Register</h1>
+      <a href="index.html" class="back">← Back to Home</a>
+    </div>
+  </header>
+
+  <section class="container sop">
+    <h2>Objective</h2>
+    <p>
+      This Asset Register provides detailed information about the campus ICT hardware, software, and network assets.
+      It supports maintenance, accountability, and planning for future upgrades.
+    </p>
+
+    <!-- 🖥️ Hardware Assets -->
+    <h2>Hardware Assets</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Asset No.</th>
+          <th>Item Name</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Price (R)</th>
+          <th>Cost (R)</th>
+          <th>Motivation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>-</td><td>Dell OptiPlex 7050 Desktop</td><td>Intel i7, 16GB RAM, 1TB SSD, 22" Monitor</td><td>30</td><td>12,999</td><td>389,970</td><td>-</td></tr>
+        <tr><td>-</td><td>ASUS Vivobook Go 15</td><td>Intel Celeron, 4GB RAM, 256GB SSD</td><td>30</td><td>6,501</td><td>195,030</td><td>-</td></tr>
+        <tr><td>-</td><td>Proline V11 11.6 Notebook</td><td>Celeron 4GB 500GB Win 10</td><td>40</td><td>5,999</td><td>239,960</td><td>-</td></tr>
+        <tr><td>-</td><td>Canon i-SENSYS MF275DW Printer</td><td>Laser multifunction printer</td><td>9</td><td>5,499</td><td>16,497</td><td>-</td></tr>
+        <tr><td>-</td><td>APC Smart-UPS 1500VA</td><td>Power backup for server rack</td><td>1</td><td>23,451</td><td>23,451</td><td>-</td></tr>
+        <tr><td>-</td><td>Server Rack 12U</td><td>Network & Server rack</td><td>1</td><td>2,399</td><td>2,399</td><td>-</td></tr>
+        <tr><td>-</td><td>TP-Link Tapo C410</td><td>Solar-Powered Wi-Fi Security Camera Kit</td><td>17</td><td>2,099</td><td>35,683</td><td>-</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Recommended Hardware Upgrades</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Asset No.</th>
+          <th>Item Name</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Price (R)</th>
+          <th>Cost (R)</th>
+          <th>Motivation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>HW-MB-001</td><td>Dell OptiPlex 7020 SFF Computer</td><td>13th Gen i7, 16GB RAM, 512GB SSD</td><td>30</td><td>15,980</td><td>479,400</td><td>Faster CPU, better energy efficiency and smaller footprint</td></tr>
+        <tr><td>HW-MB-002</td><td>HP ProBook 440 G10 14"</td><td>i5-1335U 16GB RAM 512GB SSD</td><td>30</td><td>19,199</td><td>575,970</td><td>Enterprise-grade durability and longer battery life</td></tr>
+        <tr><td>HW-B2-003</td><td>Lenovo ThinkCentre M75s</td><td>Gen 2 AMD Ryzen 5 SFF PC, 16GB RAM, 23" Monitor</td><td>40</td><td>17,499</td><td>699,960</td><td>High performance and security features</td></tr>
+        <tr><td>HW-MB-004</td><td>HP LaserJet Pro MFP 4103dw</td><td>Laser multifunction printer</td><td>9</td><td>7,508</td><td>67,572</td><td>Faster print speed, duplex printing, and energy efficiency</td></tr>
+        <tr><td>HW-B1-005</td><td>Eaton 9SX 3000VA UPS</td><td>Power backup for server rack</td><td>1</td><td>75,600</td><td>75,600</td><td>Longer runtime and smart network management</td></tr>
+        <tr><td>HW-B2-006</td><td>APC Netshelter SX 24U</td><td>Network & Server rack</td><td>1</td><td>34,309</td><td>34,309</td><td>Better airflow, cable management, and scalability</td></tr>
+        <tr><td>HW-AB-007</td><td>TP-Link Tapo C206</td><td>Indoor/Outdoor Wi-Fi Camera</td><td>17</td><td>900</td><td>15,300</td><td>Offers 1080p video with smart pan-tilt tracking</td></tr>
+      </tbody>
+    </table>
+
+    <!-- 💽 Software Assets -->
+    <h2>Software Assets</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Asset No.</th>
+          <th>Item Name</th>
+          <th>Description</th>
+          <th>License Type</th>
+          <th>Quantity</th>
+          <th>Price (R)</th>
+          <th>Cost (R)</th>
+          <th>Motivation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>-</td><td>Windows 11 Pro</td><td>Operating System</td><td>OEM</td><td>100</td><td>1,500</td><td>150,000</td><td>-</td></tr>
+        <tr><td>-</td><td>Microsoft Office 365</td><td>Office Suite</td><td>Subscription</td><td>100</td><td>1,599</td><td>159,900</td><td>-</td></tr>
+        <tr><td>-</td><td>Bitdefender GravityZone</td><td>Endpoint Protection</td><td>Subscription</td><td>100</td><td>657</td><td>65,700</td><td>-</td></tr>
+        <tr><td>-</td><td>Adobe Acrobat Pro</td><td>PDF Editor</td><td>Subscription</td><td>10</td><td>3,422.40</td><td>34,224</td><td>-</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Recommended Software Upgrades</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Asset No.</th>
+          <th>Software Name</th>
+          <th>License Type</th>
+          <th>Quantity</th>
+          <th>Price (R)</th>
+          <th>Cost (R)</th>
+          <th>Motivation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>SW-MB-101</td><td>Windows 11 Enterprise</td><td>Volume License</td><td>100</td><td>348.18</td><td>34,818</td><td>Centralized management, BitLocker, and security</td></tr>
+        <tr><td>SW-MB-102</td><td>Microsoft 365 A3 Education Suite</td><td>Academic Subscription</td><td>100</td><td>505.11</td><td>50,511</td><td>Cloud storage, Teams, and collaboration</td></tr>
+        <tr><td>SW-MB-103</td><td>ESET PROTECT Advanced Cloud</td><td>Cloud License</td><td>100</td><td>608.70</td><td>60,870</td><td>Advanced security and ransomware protection</td></tr>
+        <tr><td>SW-MB-104</td><td>Cisco Modeling Lab (Academic)</td><td>Institution License</td><td>30</td><td>527</td><td>15,810</td><td>Enterprise simulation and testing</td></tr>
+        <tr><td>SW-MB-106</td><td>Fedena Pro Cloud</td><td>SaaS Institutional</td><td>1</td><td>39,624.14</td><td>39,624.14</td><td>Cloud-based management system</td></tr>
+      </tbody>
+    </table>
+
+    <!-- 🌐 Network Assets -->
+    <h2>Network Infrastructure</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Device Name</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Price (R)</th>
+          <th>Cost (R)</th>
+          <th>Location</th>
+          <th>Purpose</th>
+          <th>Motivation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Cisco C9200L-24P-4X-E Switch</td><td>24-port PoE+ Layer 3 Switch</td><td>1</td><td>18,640</td><td>18,640</td><td>Main Building</td><td>Core Switch</td><td>-</td></tr>
+        <tr><td>Cisco CBS350-24T-4X</td><td>Managed Switch</td><td>2</td><td>16,038.06</td><td>32,076.12</td><td>Building 1 & 2</td><td>Fiber Uplink</td><td>-</td></tr>
+        <tr><td>ASUS RT-BE50 Router</td><td>Dual-band Wi-Fi 7 Router</td><td>1</td><td>1,999</td><td>1,999</td><td>Main Building</td><td>Gateway Router</td><td>-</td></tr>
+        <tr><td>MikroTik CCR1009</td><td>Central DHCP & Firewall</td><td>1</td><td>7,675.74</td><td>7,675.74</td><td>Main Building</td><td>Network Control</td><td>-</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Recommended Network Upgrades</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Device Name</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Price (R)</th>
+          <th>Cost (R)</th>
+          <th>Location</th>
+          <th>Purpose</th>
+          <th>Motivation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Cisco C9300-24T-E Switch</td><td>24-port 1G copper with uplinks</td><td>1</td><td>32,909.95</td><td>32,909.95</td><td>Main Building</td><td>Core Switch</td><td>Enterprise-grade speed and stackable design</td></tr>
+        <tr><td>Aruba 2930F Switch</td><td>24G PoE+ with 4 SPF ports</td><td>2</td><td>21,815.00</td><td>43,630.00</td><td>Buildings 1 & 2</td><td>Fiber Uplink</td><td>Smart-managed, reliable for edge connectivity</td></tr>
+        <tr><td>Cisco Meraki MX68</td><td>Cloud-Managed Router</td><td>1</td><td>7,019</td><td>7,019</td><td>Main Building</td><td>Gateway Router</td><td>Centralized cloud control, VPN & security</td></tr>
+        <tr><td>Fortinet FortiGate 60F</td><td>Firewall Security Appliance</td><td>1</td><td>13,800</td><td>13,800</td><td>Main Building</td><td>Network Control</td><td>Advanced firewall & threat protection</td></tr>
+        <tr><td>Aruba Instant On AP22</td><td>Wi-Fi 6 Indoor Access Point</td><td>6</td><td>2,550</td><td>15,330</td><td>All Buildings</td><td>Secure Wireless</td><td>Stronger signal, cloud managed</td></tr>
+        <tr><td>OM4 Multi-mode Fiber (10Gbps)</td><td>10GB Fiber Link</td><td>1</td><td>1,239.27</td><td>1,239.27</td><td>All Buildings</td><td>Underground</td><td>Higher data transfer rates</td></tr>
+        <tr><td>SolarWinds Hybrid Cloud Observability</td><td>Monitoring Software</td><td>1</td><td>1,534.68</td><td>1,534.68</td><td>Main Server</td><td>Performance Tracking</td><td>Advanced monitoring & automation</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notes">
+      <h4>📘 Summary</h4>
+      <p>
+        The recommended upgrades modernize the campus ICT infrastructure, improving reliability, security, and scalability across all academic and administrative units.
+      </p>
+    </div>
+  </section>
+
+  <footer class="site-footer">© 2025 Campus ICT Department</footer>
+  <script>
+  // Restrict access to logged-in users only
+  const isLoggedIn = localStorage.getItem("loggedIn");
+  if (!isLoggedIn) {
+    alert("Access denied. Please log in first.");
+    window.location.href = "login.html";
+  }
+</script>
+</body>
+</html>
